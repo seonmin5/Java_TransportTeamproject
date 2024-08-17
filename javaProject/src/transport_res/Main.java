@@ -49,7 +49,7 @@ public class Main {
             }
 
             System.out.print("더 입력하시겠습니까? (y/n): ");
-            String response = sc.next();     
+            String response = sc.nextLine();     
             if (response.equalsIgnoreCase("n")) {
                 break;
             }
